@@ -1,0 +1,35 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*, *:after, *:before {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+.container-navbar {
+    margin-top: 2rem;
+    border-top: .1rem solid rgb(199, 196, 196);
+}
+
+.nav-principal {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0;
+
+}  
+
+.contenedor {
+        max-width: 120rem;
+        margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
